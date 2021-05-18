@@ -6,7 +6,7 @@ int main()
     float a, b, c;
     char c1, c2;
     int flag = 0;
-    scanf("%f%c%f%c%f", &a, &c1, &b, &c2, &c);
+    scanf("%f %c %f %c %f", &a, &c1, &b, &c2, &c);
 
     if (a >= 1000 || b >= 1000 || c >= 1000)
     {
